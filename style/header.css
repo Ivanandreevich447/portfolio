@@ -38,6 +38,9 @@ header {
   display: flex;
   gap: 50px;
 }
+.nav__link:hover {
+  color: #1bff07;
+}
 
 .nav__link {
   font-size: 18px;

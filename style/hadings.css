@@ -21,6 +21,10 @@ h1.intro__text {
   line-height: 70px;
   color: #1bff07;
   font-size: 80px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
 }
 
 h2.projects__text {
