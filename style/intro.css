@@ -1,0 +1,28 @@
+.intro {
+  position: absolute;
+  top: 334px;
+}
+
+.intro_subtext {
+  width: 400px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 26px;
+  color: white;
+}
+
+@media (max-width: 1199px) {
+  .intro__text {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .intro {
+  }
+
+  .intro_subtext {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

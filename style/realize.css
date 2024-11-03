@@ -1,0 +1,80 @@
+.realizes {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.realize__img {
+}
+
+.realize__block {
+  padding: 40px 0;
+  display: flex;
+  gap: 50px;
+  border: 1px #191c19 solid;
+  background-color: #191c19;
+  border-radius: 30px;
+}
+
+.realize__title {
+  padding-left: 40px;
+  width: 50%;
+  font-size: 55px;
+  line-height: 60.5px;
+  color: #1bff07;
+}
+
+.realize__subtitle {
+  padding-right: 40px;
+  width: 50%;
+  font-size: 22px;
+  line-height: 28.6px;
+}
+
+@media (max-width: 1199px) {
+  .realize__img {
+    height: 162px;
+    width: 100%;
+  }
+
+  .realize__title {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .realize__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 650px) {
+  .realizes {
+    margin-top: 0;
+    row-gap: 15px;
+  }
+  .realize {
+    margin-top: 60px;
+  }
+
+  .realize__img {
+    height: 225px;
+  }
+
+  .realize__block {
+    padding: 30px 30px 60px 20px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .realize__title {
+    padding: 0;
+    width: 100%;
+  }
+  .realize__subtitle {
+    padding-top: 15px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

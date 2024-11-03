@@ -1,0 +1,71 @@
+@import url(header.css);
+@import url(intro.css);
+@import url(hadings.css);
+@import url(projects.css);
+@import url(buttons.css);
+@import url(skills.css);
+@import url(realize.css);
+@import url(contact.css);
+@import url(footer.css);
+@import url(burger.css);
+
+body,
+html {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 15px;
+}
+
+body {
+  width: 100%;
+  font-family: IBM Plex Mono;
+  background-color: black;
+  letter-spacing: -3%;
+}
+
+section {
+  margin-top: 150px;
+}
+
+.section-intro {
+  margin-top: 94px;
+}
+
+.section-contacts {
+  margin-top: 150px;
+}
+.container__contacts {
+  max-width: 100%;
+}
+.section__footer {
+  max-width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+  .container__contacts {
+    width: 100%;
+  }
+
+  .section-contacts {
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,59 @@
+header {
+  position: relative;
+  padding-top: 33px;
+  max-width: 100%;
+  height: 765px;
+  display: block;
+  background-image: url(../resouces/orlov__logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__logo {
+  display: flex;
+  width: 120px;
+  border-radius: 100px;
+  border: 1px black solid;
+  background-color: black;
+  display: block;
+}
+
+.menu__logo__text {
+  margin: 0 auto;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -0.11em;
+  color: #1bff07;
+  text-align: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav__link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 700px) {
+  header {
+    padding-top: 20px;
+    height: 720px;
+    background-image: url(../resouces/mobile/orlov_mobile.png);
+  }
+}

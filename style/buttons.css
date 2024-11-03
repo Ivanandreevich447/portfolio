@@ -1,0 +1,50 @@
+.button_projects {
+  margin-top: 80px;
+  width: 582px;
+  border-radius: 10px;
+  display: block;
+  border: 1px #1bff07 solid;
+  background-color: #1bff07;
+  color: black;
+  font-size: 30px;
+  line-height: 153px;
+  text-align: center;
+}
+
+.contacts__button {
+  margin-top: 60px;
+  width: 450px;
+  border: 1px #1bff07 solid;
+  background-color: #1bff07;
+  color: black;
+  border-radius: 15px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 70px;
+}
+
+@media (max-width: 1199px) {
+  .button_projects {
+    margin-top: 64px;
+    width: 460px;
+    line-height: 124px;
+    font-size: 25px;
+  }
+
+  .contacts__button {
+    max-width: 304px;
+  }
+}
+
+@media (max-width: 650px) {
+  .button_projects {
+    margin-top: 64px;
+    width: 360px;
+    line-height: 80px;
+    font-size: 18px;
+  }
+
+  .contacts__button {
+    max-width: 350px;
+  }
+}
